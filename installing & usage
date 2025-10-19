@@ -1,0 +1,37 @@
+How to Install and Use the Indicator
+Open TradingView: Go to any chart (e.g., BTC/USD).
+Open Pine Editor: At the bottom of the chart, click on the "Pine Editor" tab.
+Paste the Code: Delete any existing code in the editor and paste the entire script from above.
+Add to Chart: Click the "Add to chart" button. The indicator will appear on your chart.
+How to Interpret and Use the MTC Indicator
+Background Color: The light green/red background instantly tells you the primary trend according to the long-term EMA.
+Light Green: Price is above the 200 EMA (Uptrend).
+Light Red: Price is below the 200 EMA (Downtrend).
+The Lines:
+Thick Blue Line: Your long-term trend filter (200 EMA). The strategy is to look for buys above this line and sells below it.
+Green/Red Lines: Your fast (20) and slow (50) EMAs. The crossover between these is your entry trigger.
+The Signals (BUY/SELL Labels):
+A "BUY" label appears only when all four conditions are met. This suggests a strong, high-probability entry point to go long.
+A "SELL" label appears only when all four bearish conditions are met. This suggests a strong entry point to go short.
+Trading Strategy Example:
+Wait for a Signal: Be patient. Don't trade unless you see a clear BUY or SELL label.
+Enter a Trade: When a BUY label appears, you can enter a long position. When a SELL label appears, you can enter a short position.
+Set a Stop-Loss: Always use a stop-loss! A good place could be below the low of the signal candle (for a buy) or above the high of the signal candle (for a sell).
+Take Profit: You can take profit at a predetermined risk/reward ratio (e.g., 2:1 or 3:1), or when you see a contrary signal (e.g., a SELL signal appears while you are in a long trade).
+Setting Up Alerts
+This indicator has built-in alert conditions, which is one of its most powerful features.
+
+On your chart, click on "Alerts" (the bell icon).
+Click "Create New Alert."
+In the "Condition" dropdown, find the "Momentum Trend Confirmation (MTC)" indicator.
+Select either "MTC Buy Alert" or "MTC Sell Alert."
+Configure the rest of your alert settings (e.g., notifications) and click "Create."
+Now, TradingView will automatically send you a notification whenever a high-probability signal occurs, even if you're not watching the chart!
+
+Customization
+The best part about building your own indicator is that you can tweak the inputs. Feel free to experiment with:
+
+Changing the EMA lengths.
+Adjusting the RSI midline (e.g., 40 for a more sensitive bullish signal).
+Changing the volume multiplier to require a bigger or smaller volume spike.
+This indicator provides a solid, logical framework for identifying momentum-based trend continuations. Happy trading
